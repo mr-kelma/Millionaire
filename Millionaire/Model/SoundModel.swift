@@ -5,7 +5,6 @@
 //  Created by Valery Keplin on 31.10.22.
 //
 
-import UIKit
 import AVFoundation
 
 var player: AVAudioPlayer!

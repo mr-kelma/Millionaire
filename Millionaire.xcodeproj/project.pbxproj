@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		704EAF5E2917FE5600832434 /* tachMoney.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 704EAF5D2917FE5600832434 /* tachMoney.mp3 */; };
 		70AF5489290FC243002975EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF5488290FC243002975EF /* AppDelegate.swift */; };
 		70AF548B290FC243002975EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF548A290FC243002975EF /* SceneDelegate.swift */; };
-		70AF548D290FC243002975EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF548C290FC243002975EF /* ViewController.swift */; };
-		70AF5490290FC243002975EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AF548E290FC243002975EF /* Main.storyboard */; };
+		70AF548D290FC243002975EF /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF548C290FC243002975EF /* StartViewController.swift */; };
 		70AF5492290FC245002975EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AF5491290FC245002975EF /* Assets.xcassets */; };
 		70AF5495290FC245002975EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AF5493290FC245002975EF /* LaunchScreen.storyboard */; };
 		70AF549D290FC31F002975EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 70AF549C290FC31F002975EF /* .gitignore */; };
@@ -22,14 +22,24 @@
 		70AF54AF290FCCEE002975EF /* startApp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70AF54A9290FCCEE002975EF /* startApp.mp3 */; };
 		70AF54B1290FCD3A002975EF /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF54B0290FCD3A002975EF /* SoundModel.swift */; };
 		70AF54B3290FCF26002975EF /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AF54B2290FCF26002975EF /* QuestionModel.swift */; };
+		70DF1B9A29153B25003C13F5 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF1B9929153B25003C13F5 /* GameBrain.swift */; };
+		A56C12802911137A00AD47DE /* LevelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C127F2911137A00AD47DE /* LevelListView.swift */; };
+		A56C1282291113A200AD47DE /* LevelListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C1281291113A200AD47DE /* LevelListTableView.swift */; };
+		A56C128829111E3A00AD47DE /* LevelListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C128729111E3A00AD47DE /* LevelListTableViewCell.swift */; };
+		EC3B212A291043DA0080E158 /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B2129291043DA0080E158 /* RuleViewController.swift */; };
+		EC3B212C2910442D0080E158 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B212B2910442D0080E158 /* GameViewController.swift */; };
+		EC3B212E2910443B0080E158 /* LevelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B212D2910443B0080E158 /* LevelListViewController.swift */; };
+		EC3B21302910444B0080E158 /* FinalResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B212F2910444B0080E158 /* FinalResultViewController.swift */; };
+		ECDDF31B291567690032E334 /* CustomButtonNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDF31A291567690032E334 /* CustomButtonNavigationBar.swift */; };
+		ECDE7DF0291418410019F36B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDE7DEF291418410019F36B /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		704EAF5D2917FE5600832434 /* tachMoney.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tachMoney.mp3; sourceTree = "<group>"; };
 		70AF5485290FC243002975EF /* Millionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millionaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AF5488290FC243002975EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70AF548A290FC243002975EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70AF548C290FC243002975EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		70AF548F290FC243002975EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70AF548C290FC243002975EF /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		70AF5491290FC245002975EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70AF5494290FC245002975EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70AF5496290FC245002975EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +52,16 @@
 		70AF54A9290FCCEE002975EF /* startApp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = startApp.mp3; sourceTree = "<group>"; };
 		70AF54B0290FCD3A002975EF /* SoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
 		70AF54B2290FCF26002975EF /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		70DF1B9929153B25003C13F5 /* GameBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
+		A56C127F2911137A00AD47DE /* LevelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelListView.swift; sourceTree = "<group>"; };
+		A56C1281291113A200AD47DE /* LevelListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelListTableView.swift; sourceTree = "<group>"; };
+		A56C128729111E3A00AD47DE /* LevelListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelListTableViewCell.swift; sourceTree = "<group>"; };
+		EC3B2129291043DA0080E158 /* RuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		EC3B212B2910442D0080E158 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EC3B212D2910443B0080E158 /* LevelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelListViewController.swift; sourceTree = "<group>"; };
+		EC3B212F2910444B0080E158 /* FinalResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalResultViewController.swift; sourceTree = "<group>"; };
+		ECDDF31A291567690032E334 /* CustomButtonNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonNavigationBar.swift; sourceTree = "<group>"; };
+		ECDE7DEF291418410019F36B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +95,13 @@
 		70AF5487290FC243002975EF /* Millionaire */ = {
 			isa = PBXGroup;
 			children = (
+				70AF54A2290FC4FC002975EF /* App */,
 				70AF54A0290FC4B9002975EF /* Controller */,
+				ECDE7DEE291418180019F36B /* Extensoins */,
 				70AF549F290FC49E002975EF /* Model */,
 				70AF549E290FC486002975EF /* View */,
 				70AF54A1290FC4D5002975EF /* Resources */,
 				70AF5496290FC245002975EF /* Info.plist */,
-				70AF54A2290FC4FC002975EF /* App */,
 			);
 			path = Millionaire;
 			sourceTree = "<group>";
@@ -88,7 +109,7 @@
 		70AF549E290FC486002975EF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				70AF548E290FC243002975EF /* Main.storyboard */,
+				A56C1283291115E800AD47DE /* LevelList */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -98,6 +119,7 @@
 			children = (
 				70AF54B0290FCD3A002975EF /* SoundModel.swift */,
 				70AF54B2290FCF26002975EF /* QuestionModel.swift */,
+				70DF1B9929153B25003C13F5 /* GameBrain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,7 +127,11 @@
 		70AF54A0290FC4B9002975EF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				70AF548C290FC243002975EF /* ViewController.swift */,
+				70AF548C290FC243002975EF /* StartViewController.swift */,
+				EC3B2129291043DA0080E158 /* RuleViewController.swift */,
+				EC3B212B2910442D0080E158 /* GameViewController.swift */,
+				EC3B212D2910443B0080E158 /* LevelListViewController.swift */,
+				EC3B212F2910444B0080E158 /* FinalResultViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -134,12 +160,32 @@
 			children = (
 				70AF54A7290FCCEE002975EF /* correctAnswer.mp3 */,
 				70AF54A9290FCCEE002975EF /* startApp.mp3 */,
+				704EAF5D2917FE5600832434 /* tachMoney.mp3 */,
 				70AF54A4290FCCED002975EF /* victoryMillion.mp3 */,
 				70AF54A5290FCCED002975EF /* waitForInspection.mp3 */,
 				70AF54A8290FCCEE002975EF /* waitForResponse.mp3 */,
 				70AF54A6290FCCED002975EF /* wrongAnswer.mp3 */,
 			);
 			path = Sound;
+			sourceTree = "<group>";
+		};
+		A56C1283291115E800AD47DE /* LevelList */ = {
+			isa = PBXGroup;
+			children = (
+				A56C127F2911137A00AD47DE /* LevelListView.swift */,
+				A56C1281291113A200AD47DE /* LevelListTableView.swift */,
+				A56C128729111E3A00AD47DE /* LevelListTableViewCell.swift */,
+			);
+			name = LevelList;
+			sourceTree = "<group>";
+		};
+		ECDE7DEE291418180019F36B /* Extensoins */ = {
+			isa = PBXGroup;
+			children = (
+				ECDE7DEF291418410019F36B /* CustomButton.swift */,
+				ECDDF31A291567690032E334 /* CustomButtonNavigationBar.swift */,
+			);
+			name = Extensoins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +251,11 @@
 				70AF54AC290FCCEE002975EF /* wrongAnswer.mp3 in Resources */,
 				70AF54AF290FCCEE002975EF /* startApp.mp3 in Resources */,
 				70AF5495290FC245002975EF /* LaunchScreen.storyboard in Resources */,
+				704EAF5E2917FE5600832434 /* tachMoney.mp3 in Resources */,
 				70AF54AE290FCCEE002975EF /* waitForResponse.mp3 in Resources */,
 				70AF5492290FC245002975EF /* Assets.xcassets in Resources */,
 				70AF54AB290FCCEE002975EF /* waitForInspection.mp3 in Resources */,
 				70AF54AA290FCCEE002975EF /* victoryMillion.mp3 in Resources */,
-				70AF5490290FC243002975EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,25 +266,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70AF548D290FC243002975EF /* ViewController.swift in Sources */,
+				ECDE7DF0291418410019F36B /* CustomButton.swift in Sources */,
+				70AF548D290FC243002975EF /* StartViewController.swift in Sources */,
+				70DF1B9A29153B25003C13F5 /* GameBrain.swift in Sources */,
 				70AF54B1290FCD3A002975EF /* SoundModel.swift in Sources */,
+				A56C128829111E3A00AD47DE /* LevelListTableViewCell.swift in Sources */,
+				ECDDF31B291567690032E334 /* CustomButtonNavigationBar.swift in Sources */,
 				70AF5489290FC243002975EF /* AppDelegate.swift in Sources */,
+				A56C12802911137A00AD47DE /* LevelListView.swift in Sources */,
+				EC3B212E2910443B0080E158 /* LevelListViewController.swift in Sources */,
+				EC3B212A291043DA0080E158 /* RuleViewController.swift in Sources */,
+				EC3B212C2910442D0080E158 /* GameViewController.swift in Sources */,
 				70AF548B290FC243002975EF /* SceneDelegate.swift in Sources */,
 				70AF54B3290FCF26002975EF /* QuestionModel.swift in Sources */,
+				EC3B21302910444B0080E158 /* FinalResultViewController.swift in Sources */,
+				A56C1282291113A200AD47DE /* LevelListTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		70AF548E290FC243002975EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70AF548F290FC243002975EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		70AF5493290FC245002975EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -371,20 +419,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6PB4D5QX22;
+				DEVELOPMENT_TEAM = 65JLP27XM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Millionaire/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mr.kelma.Millionaire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DaniilSimakhin.Millionaire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -402,20 +453,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6PB4D5QX22;
+				DEVELOPMENT_TEAM = 65JLP27XM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Millionaire/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mr.kelma.Millionaire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DaniilSimakhin.Millionaire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
