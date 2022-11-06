@@ -20,11 +20,14 @@ class FinalResultViewController: UIViewController{
     
     private lazy var result: UILabel = {
         let heading = UILabel()
-        heading.text = "Вы выиграли \n\n1 000 000 \n\nрублей!"
+        let myAttribute = [ NSAttributedString.Key.font: UIFont.systemFont(ofSize: 45, weight: .semibold),NSAttributedString.Key.foregroundColor: UIColor.white,]
+        let myString = NSMutableAttributedString(string:"Вы выиграли \n\n 1 000 000  \n\nрублей!", attributes: myAttribute)
+        var anotherAttribute = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 45, weight: .bold),NSAttributedString.Key.foregroundColor: UIColor.yellow,]
+        myString.addAttributes(anotherAttribute, range: myString.getRangeOfString(textToFind: "1 000 000"))
+        heading.attributedText = myString
         heading.font = UIFont.systemFont(ofSize: 45, weight: .semibold)
         heading.numberOfLines = 5
         heading.textAlignment = .center
-        heading.textColor = .white
         heading.translatesAutoresizingMaskIntoConstraints = false
         return heading
     }()
